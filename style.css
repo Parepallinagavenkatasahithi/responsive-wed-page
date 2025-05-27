@@ -1,0 +1,129 @@
+/* Reset basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar Styles */
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+#navbar ul li {
+  margin: 0 20px;
+}
+
+#navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: color 0.3s, transform 0.3s;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Hover Effect */
+#navbar ul li a:hover {
+  color: #ff5722;
+  transform: scale(1.1);
+}
+
+/* Style when scrolled */
+#navbar.scrolled {
+  background-color: #222 !important;
+}
+
+/* Page content */
+.content {
+  padding-top: 100px;
+  padding: 100px 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Headings */
+.content h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+/* Reset basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+#navbar ul li {
+  margin: 0 15px;
+}
+
+#navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s, transform 0.3s;
+}
+
+/* Hover Effect */
+#navbar ul li a:hover {
+  color: #00ffff;
+  transform: scale(1.1);
+}
+
+/* Style when scrolled */
+#navbar.scrolled {
+  background-color: #333 !important;
+}
+
+/* Page content */
+.content {
+  padding-top: 100px;
+  height: 1500px;
+  padding-left: 20px;
+}
